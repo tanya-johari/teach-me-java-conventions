@@ -3,7 +3,7 @@ package powerpackage;
 public class PowerFinder {
     public static int calculatePower(int base, int exponent) {
         int result = 1;
-        for (int i = 0; i < exponent; i++) {
+        for (int iterator = 0; iterator < exponent; iterator++) {
             result *= base;
         }
         return result;

@@ -21,6 +21,6 @@ public class PowerFinderTest {
 
     @Test
     public void three_raised_to_three_is_nine() {
-        assert PowerFinder.calculatePower(3, 2) == 3*3;
+        assert PowerFinder.calculatePower(3, 2) == 9;
     }
 }
